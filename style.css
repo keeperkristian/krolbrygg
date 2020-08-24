@@ -1,9 +1,10 @@
 body{
-  background-color: #C7C2C1
+  background-color: white;
 }
 
-
-
+h1 {
+  text-transform: uppercase;
+}
 
 .logo {
   width: 200px;
@@ -14,3 +15,26 @@ body{
   margin-right: auto;
   margin-top: 40px
 }
+
+.fullCard {
+    width: 400px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: auto;
+    padding: 4px;
+  }
+
+  .untappd {
+    width: 400px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: auto;
+    padding: 4px;
+  }
+
+  untappd:hover {
+    transform: scaleX(1.1);
+  }
+
+  #thumbnail {
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
